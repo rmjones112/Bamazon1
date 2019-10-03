@@ -113,21 +113,17 @@ function orderProcess(item, quantity){
 
 
         if(res[0].stock_quantity === 0){
-          console.log("xxxx")
             console.log("Unfortunately, due to high demand, we are out of this product");
-            console.log("xxx")
             updateInventory(item, 100);
             userInquiry()
 
         }else if(res[0].stock_quantity < quantity) {
-          console.log("xxxxx")
             console.log("Sorry we do not have enough of this in our inventory for your order");
-            console.log("xxxxx")
             userInquiry()
 
         }else {
-            console.log("xxx");
-            console.log("Grear choice!, Your total is $" + (res[0].price * quantity))
+            console.log("");
+            console.log("Great choice!, Your total is $" + (res[0].price * quantity))
             var newQuantity = res[0].stock_quantity - quantity;
             updateInventory(item, newQuantity)
             
