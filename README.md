@@ -17,13 +17,17 @@ Bamazon is a userfriendly website designed to make online shopping convient, fas
 
 * 1)First clone or download this repo using the software of your choice and install the packages required to run this application. 
         * NPM install 
-![](images/Spotify-this-song.png)
-
 * 2)Next using the MYSQL application, copy and paste the information from the schema and seeds into MYSQL workbench to create the bamazon database 
+![](images/MYSQL.png)
 
 # How to Use
 * 1)open the terminal in the BamazonCustomer.js file 
 * 2) type "node BamazonCustomer.js" into the terminal
-* 3) Then you will see a table with 3 options to either make a purchase, check availabilty or exit the site
+* 3) Then you will see a table with 3 options to either make a purchase, check availabilty or exit the site. Use the arrow key to make a selection
+![](images/MainScreen.png)
+* 4) If you select to purchase the item, it will pull up the list of available products for you to chose from
+![](images/SelectProduct.png)
+* 5) After you select your product you enter the quantity you would like to purchase and then your price will be calculated
+![](images/Purchase.png)
 
 ## Link to deployed site:
