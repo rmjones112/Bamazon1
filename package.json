@@ -1,0 +1,26 @@
+{
+  "name": "Bamazon1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmjones112/Bamazon1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmjones112/Bamazon1/issues"
+  },
+  "homepage": "https://github.com/rmjones112/Bamazon1#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "mysql": "^2.17.1",
+    "node": "^12.11.0",
+    "table": "^5.4.6"
+  }
+}
